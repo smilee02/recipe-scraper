@@ -1,6 +1,6 @@
 # Recipe box
 
-Scrape sets of recipes from food websites. Currently supports one website in Python 3:
+Scrape sets of recipes from food websites.
 
 * [Foodnetwork.com](http://www.foodnetwork.com/)
 
