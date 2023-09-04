@@ -25,7 +25,8 @@ def get_fn_urls(recipe_types):
     last_page = 1000
     lag0 = 0
     for recipe in recipe_types:
-        output_folder = os.path.join(os.path.dirname(__file__), '..', 'output')
+        output_folder = os.path.join(
+            os.path.dirname(__file__), '..', 'outputs')
         page_number = 1
         # Create the output folder if it doesn't exist
         os.makedirs(output_folder, exist_ok=True)
